@@ -1,0 +1,229 @@
+
+        <!--This nav is different from one of the homepage.It is not a sidebar.The styling is done seperately-->
+        <nav class="navbar navbar-expand-md bd-dark flex-md-column flex-row align-items-center py-2 text-center sticky-top "
+                    id="project-nav">
+                    
+                        <a href="#" class="navbar-brand mx-0 font-weight-bold text-nowrap">AJINA KAREEMAH</a>
+
+
+                    </div>
+                    <button type="button" class="navbar-toggler border-0 order-1 toggle-btn" data-toggle="collapse"
+                        data-target="#nav" aria-controls="nav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                        
+                    <div class="collapse navbar-collapse prder-last side-bar-block" id="nav">
+                        <!-- I changed the links  from lists to divs so they don't appear like block elemets-->
+                        <ul class="navbar-nav flex-column w-100 justify-content-center id">
+                            <p class=" mx-0 font-weight-bold text-nowrap text-white">FRONT END ENGINEER</p>
+
+                            <ul class="nav-item">
+                                <a href="index.html" class="nav-link " title="">
+                                    <i class="fa fa-user icon" aria-hidden="true"></i>HOME</a>
+                            </ul>
+                            <ul class="nav-item">
+                                <a href="projects.html" target="_blank" class="nav-link " title="">
+                                    <i class="fa fa-code icon" aria-hidden="true"
+                                        style="padding-left: 12px;"></i>PROJECTS</a>
+                            </ul>
+                            <ul class="nav-item">
+                                <a href="resumebandblue2.pdf" class="nav-link " target="_blank" title="">
+                                    <i class="fa fa-file-text-o icon" aria-hidden="true"></i>RESUME</a>
+                            </ul>
+                        </ul>
+                    </div>
+                    <ul class="nav justify-content-center social ">
+
+                        <li class="nav-item">
+                            <a href="www.linkedin.com/in/kareemah-ajina-0a6ab61bb" class="nav-link " target="_blank"> <i
+                                    class="fa fa-linkedin-square s-icon " aria-hidden="true"></i></a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="https://github.com/Kareemah-codes" class="nav-link " target="_blank"><i
+                                    class="fa fa-github-square s-icon" aria-hidden="true"></i></a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="https://wa.link/fpjn9c" class="nav-link text" target="_blank"><i
+                                    class="fa fa-whatsapp s-icon " aria-hidden="true"></i></a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="https://www.instagram.com/krimmy_the_ninja/" class="nav-link text" target="_blank">
+                                <i class="fa fa-instagram s-icon " aria-hidden="true"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="mailto: krimmyninja@gmail.com" class="nav-link text"> <i
+                                    class="fa fa-envelope s-icon" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+
+ <!-- <header></header>
+    <main class="wrapper">
+        <div class="img-body-wrapper">
+            <img src="" alt="">
+                   
+        </div>
+        <div class="flex-container">
+
+            <div class="one">
+                <div class="img-profile-wrapper">
+                    <img src="img/kareemah2.jpg" alt="kareemah ajina" class="profile-pic">
+                </div>
+                <div class="info-wrapper">
+                    <p class="name">AJINA KAREEMAH</p>
+                    <p class="job">FRONT END ENGINEER</p>
+                </div>
+                <div class="links">
+                    <ul>
+                        <li> <a href="#"><i class="fa fa-user icon" aria-hidden="true"></i>ABOUT ME</a></li>
+                        <li><a href="#"><i class="fa fa-code icon" aria-hidden="true"></i>PROJECTS</a></li>
+                        <li><a href="#"><i class="fa fa-suitcase icon" aria-hidden="true"></i>MY CV</a></li>
+                    </ul>
+                                                         
+                </div>
+                <div class="contact-wrapper">
+                    <p class="sm">GET IN TOUCH</p>
+                    <div class="social">
+                       
+                        <i class="fa fa-github-square" aria-hidden="true"></i>
+                        <i class="fa fa-whatsapp" aria-hidden="true"></i>
+                        <i class="fa fa-instagram" aria-hidden="true"></i>
+                        
+                    </div>
+                </div>
+           </div>
+
+           <div class="two">
+              <p class="lg">Hi!,my name is Kareemah.</p>
+              <p class="sm">I am a front-end engineer.</p>
+           </div>
+         
+        </div>
+
+
+    </main>
+    <footer></footer> -->
+
+
+    /*
+
+
+
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+  background-image: url(img/bg.jpg);
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+
+
+body,html{
+  height: 100%;
+}
+
+.flex-container{
+  display: flex;
+  flex-direction: row;
+  font-weight: 600;
+  
+}
+
+.one{
+  margin: 70px;
+  width: 25%;
+    
+}
+
+.two{
+  margin: 70px;
+}
+
+
+
+.job,.name{
+  margin-top: 20px;
+  text-align: center;
+}
+
+.links ul {
+  list-style: none;
+  text-decoration: none;
+}
+
+.links ul a {
+  color: white;
+  text-decoration: none;
+}
+
+
+
+.icon{
+  margin: 10px;
+}
+
+.profile-pic{
+  vertical-align: middle;
+  width: 152px;
+  height: 152px;
+  margin-bottom: 20px;
+  border-radius: 50%;
+}
+
+
+/* .mynav{
+  background: rgb(34,193,195);
+  background: linear-gradient(0deg, rgba(34,193,195,1) 7%, rgba(253,187,45,1) 100%);
+}
+
+ .row{
+   margin-top: 50px;
+ }
+
+.name{
+  color: #e0e0e0 !important;
+
+}
+
+.
+.profile-pic{
+    border-radius: 50% !important;
+    height: 68px;
+    
+    
+}
+
+  div .profile {
+  border: 15px solid black;
+  background-color: green;
+  height: 100vh;
+}
+div .msg{
+  border: 15px solid black;
+  height: 100vh;
+}
+
+.des a{
+  font-weight: 600;
+  color: black;
+  text-decoration: none;
+
+}
+
+.des a:hover{
+  color:red;
+} */
+ */
+
+
+
+

@@ -1,0 +1,104 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+body{
+  font-family: 'Nunito', sans-serif !important;
+  background-image: url(img/bg2-min.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  /*prevents the zoom of the picture problem I was having.DON'T CHANGE*/
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+ 
+  
+}
+
+#side-bar{
+  padding-left: 25px;
+  background-color:rgb(57,62,70,0.5)  ;
+  
+}
+
+.navbar{
+  background-color: rgb(57,62,70,0.5) !important;
+}
+.toggle-btn{
+  border-color: #00C9B1 !important;
+}
+
+.nav-link{
+  text-decoration: none !important;
+}
+
+.nav-link:hover{
+  text-decoration: none;
+}
+
+.body-text{
+  text-align: center;
+  padding-top: 150px;
+  color: #FFE4FA;
+}
+
+.lg{
+  font-size: 40px;
+}
+.sm{
+  font-size:32px ;
+}
+
+
+
+.icon{
+  color:white;
+  text-decoration: none !important;
+  font-size: 30px !important;
+  padding-right: 10px !important;
+}
+
+.icon:hover{
+  color:#00C9B1;
+  font-size: 35px !important;
+}
+
+.icon-txt{
+  color:white;
+  text-decoration: none !important;
+  font-size: 15px;
+  padding-right: 10px;
+}
+.icon-txt:hover{
+  color:#00C9B1 !important;
+  font-size: 20px;
+  font-weight: 600;
+}
+.s-icon{
+  font-size: 25px;
+  text-decoration: none;
+  color: white;
+
+}
+
+.s-icon:hover{
+  color:#00C9B1;
+  font-size: 30px;
+}
+
+.social{
+  padding-top: 50px;
+}
+
+
+/* Small devices (landscape phones, 576px and up)*/
+
+@media (min-width: 768px) { 
+  #side-bar{
+    height: 100%;
+  } 
+} 
+
+
+

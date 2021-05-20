@@ -1,0 +1,100 @@
+ 
+
+ 
+ 
+ #project-nav{
+    background-color: rgb(57,62,70,0.5) !important;
+   
+  }
+
+  .s-icon{
+    font-size: 27px;
+    text-decoration: none;
+    color: white;
+  
+  }
+  
+  .s-icon:hover{
+    color:#00C9B1;
+    font-size: 30px;
+  }
+  
+  .social{
+    padding-top: 50px;
+  }
+
+
+  .project-body-container{
+    padding-top: 60px;
+  }
+
+  .my-card-body{
+    background-color: #613647;
+    border:   1px solid  #613647 !important ;
+    overflow: hidden !important;
+  } 
+   .card-title{
+     color: #FFE4F5 ;
+     font-weight: 600;
+     text-align: center;
+     font-size: 1.3rem !important;
+     border-bottom: 3px solid white !important;
+   }
+ 
+  .card-text{
+    color: #fdeaf6 !important;
+    font-weight: 500 !important;
+  }
+
+.github-icon{
+  position: relative;
+  top:9px;
+  font-size: 40px;
+    text-decoration: none;
+    color: white;
+}
+
+.github-icon:hover{
+    color:#00C9B1;
+}
+.view-btn{
+  color: #00C9B1 !important ;
+  background-color: white !important;
+  border-radius: 12px !important;
+ 
+}
+
+.view-btn:hover{
+  color: white !important;
+  background-color: #00C9B1  !important ;  
+  transition: 0.2s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .my-card{
+        margin-bottom: 50px;
+      }
+
+}
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .my-card{
+    margin-bottom: 70px;
+  }
+}
